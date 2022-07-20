@@ -1,4 +1,4 @@
-import { Injectable, NotFoundException, Request, Res } from '@nestjs/common';
+import { Injectable, NotFoundException, Request } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { DataSource, Repository } from 'typeorm';
 import { CreateUserDto } from './dto/create-user.dto';

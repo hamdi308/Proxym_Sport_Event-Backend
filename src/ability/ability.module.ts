@@ -1,6 +1,5 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { UsersService } from 'src/users/users.service';
 import { AbilityFactory } from './ability.factory';
 import { User as UserEntity } from 'src/users/entities/user.entity'
 @Module({
